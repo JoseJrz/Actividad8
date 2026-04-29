@@ -1,4 +1,4 @@
-function analizar(nombre) {
++function analizar(nombre) {
     const mensaje = document.getElementById('mensaje');
     const cuerpo = document.body; //al cambiar el cuerpo al seleccionar un personaje
 
@@ -10,7 +10,6 @@ function analizar(nombre) {
     let colorTexto; //color de texto
     let claseFondo; // cambia el fondo
 
-    // CORRECCIÓN AQUÍ: Se añade 'bg-verde' a la lista para que se limpie correctamente
     cuerpo.classList.remove('bg-rojo', 'bg-cian', 'bg-blanco', 'bg-azul', 'bg-verde');
 
     switch (nombre) {
