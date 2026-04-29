@@ -1,4 +1,4 @@
-+function analizar(nombre) {
+function analizar(nombre) {
     const mensaje = document.getElementById('mensaje');
     const cuerpo = document.body; //al cambiar el cuerpo al seleccionar un personaje
 
