@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mortal Kombat</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    
+    <div class="espacio">
+        <header class="texto">
+            <h1>PREPARA EL<span>COMBATE</span></h1>
+            <p>Selecciona un guerrero para comenzar</p>
+        </header>
+        
+        <div id="resultado-escaneo">
+            <h2 id="mensaje">ESPERANDO COMBATIENTE...</h2>
+        </div>
+
+        <section class="contenedor-guerreros">
+            <div class="card kombatiente-fuego" onclick="analizar('Scorpion', 'rojo')">
+                <img src="img/scorpion.jpg" alt="Scorpion">
+                <div class="etiqueta">Scorpion</div>
+            </div>
+
+            <div class="card kombatiente-hielo" onclick="analizar('Sub-Zero', 'cian')">
+                <img src="img/SubZero.jpg" alt="Sub-Zero">
+                <div class="etiqueta">Sub-Zero</div>
+            </div>
+
+            <div class="card kombatiente-almas" onclick="analizar('Reptile', 'blanco')">
+                <img src="img/reptile.jpg" alt="Reptile">
+                <div class="etiqueta">Reptile</div>
+            </div>
+
+            <div class="card kombatiente-rayo" onclick="analizar('Raiden', 'azul')">
+                <img src="img/raiden.jpg" alt="Raiden">
+                <div class="etiqueta">Raiden</div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
